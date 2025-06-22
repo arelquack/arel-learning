@@ -1,0 +1,60 @@
+{
+  "Book": [
+    {
+      "ISBN": "978-602-7696-45-2",
+      "Title": "Filosofi Teras",
+      "Author": "Henry Manampiring",
+      "YearPublished": 2018,
+      "IsAvailable": false
+    },
+    {
+      "ISBN": "978-979-433-847-0",
+      "Title": "Laskar Pelangi",
+      "Author": "Andrea Hirata",
+      "YearPublished": 2005,
+      "IsAvailable": true
+    },
+    {
+      "ISBN": "978-623-293-323-6",
+      "Title": "Atomic Habits",
+      "Author": "James Clear",
+      "YearPublished": 2018,
+      "IsAvailable": false
+    },
+    {
+      "ISBN": "978-602-424-694-0",
+      "Title": "Negeri 5 Menara",
+      "Author": "Ahmad Fuadi",
+      "YearPublished": 2009,
+      "IsAvailable": false
+    }
+  ],
+  "Member": [
+    {
+      "MemberId": 1,
+      "Name": "Farrel Zandra",
+      "BorrowedBooks": [
+        "978-623-293-323-6",
+        "978-602-424-694-0"
+      ]
+    },
+    {
+      "MemberId": 2,
+      "Name": "Arifa Salsabila Koshi",
+      "BorrowedBooks": []
+    },
+    {
+      "MemberId": 3,
+      "Name": "Delvin Alvaro",
+      "BorrowedBooks": []
+    },
+    {
+      "MemberId": 4,
+      "Name": "Naori Najla Koshi",
+      "BorrowedBooks": [
+        "978-602-7696-45-2"
+      ]
+    }
+  ],
+  "IdCounter": 5
+}
